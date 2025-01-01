@@ -15,16 +15,16 @@ function! s:build_palette() abort
     let col_visual   = ['#e8e9ec', '#668e3d', 254, 64]
     let col_red      = ['#cc517a', '#e8e9ec', 125, 254]
   else
-    let col_base     = ['#3e445e', '#0f1117', 238, 233]
-    let col_edge     = ['#17171b', '#818596', 234, 245]
-    let col_error    = ['#161821', '#e27878', 234, 203]
-    let col_gradient = ['#6b7089', '#2e313f', 242, 236]
-    let col_nc       = ['#3e445e', '#0f1117', 238, 233]
-    let col_warning  = ['#161821', '#e2a478', 234, 216]
-    let col_insert   = ['#161821', '#84a0c6', 234, 110]
-    let col_replace  = ['#161821', '#e2a478', 234, 216]
-    let col_visual   = ['#161821', '#b4be82', 234, 150]
-    let col_red      = ['#e27878', '#161821', 203, 234]
+    let col_base     = ['#443e5e', '#110f17', 238, 233]
+    let col_edge     = ['#17171b', '#858196', 234, 245]
+    let col_error    = ['#181621', '#e278bf', 234, 203]
+    let col_gradient = ['#706b89', '#312e3f', 242, 236]
+    let col_nc       = ['#443e5e', '#110f17', 238, 233]
+    let col_warning  = ['#181621', '#e278d0', 234, 216]
+    let col_insert   = ['#181621', '#a584c6', 234, 110]
+    let col_replace  = ['#181621', '#e278d0', 234, 216]
+    let col_visual   = ['#181621', '#be82a0', 234, 150]
+    let col_red      = ['#e278bf', '#181621', 203, 234]
   endif
 
   let p = {}

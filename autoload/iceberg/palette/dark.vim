@@ -1,13 +1,13 @@
 function! iceberg#palette#dark#create() abort
-  let hue_base = 230
+  let hue_base = 250
 
-  let hue_red = 0
-  let hue_orange = 25
-  let hue_green = 70
-  let hue_lblue = 190
-  let hue_blue = 215
-  let hue_purple = 255
-  let hue_pale = 225
+  let hue_red = 320
+  let hue_orange = 310
+  let hue_green = 330
+  let hue_lblue = 190 -- 280 brighter pink
+  let hue_blue = 270
+  let hue_purple = 290
+  let hue_pale = 300
 
   " gui {{{
   let g = {}
